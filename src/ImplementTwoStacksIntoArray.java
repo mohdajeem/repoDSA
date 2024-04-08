@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.*;
 
 public class ImplementTwoStacksIntoArray {
     static class TwoStacks{
@@ -48,7 +49,7 @@ public class ImplementTwoStacksIntoArray {
 
 
     }
-    public static void main(String[] args)
+    public static void main(String[] args){
         TwoStacks st = new TwoStacks(10);
         st.push1(1);
         st.push2(10);
